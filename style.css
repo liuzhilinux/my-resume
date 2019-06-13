@@ -29,10 +29,14 @@ body {
 
 #base-info {
     background-color: #333;
+    padding: 15px;
+
     height: 240px;
 }
 
 #exp-list {
     background-color: #fff;
+    padding: 15px;
+
     height: 240px;
 }
