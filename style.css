@@ -35,6 +35,7 @@ body {
 
 #base-info {
     background-color: #333;
+    color: rgba(255, 255, 255, 0.72);
     padding: 15px;
 
     top: 0;
@@ -44,8 +45,6 @@ body {
 #exp-list {
     background-color: #fff;
     padding: 15px;
-
-    height: 320px;
 }
 
 #sculpture-top {
@@ -56,8 +55,41 @@ body {
 svg:not(:root) {
     overflow: hidden;
 }
+
 svg {
     width: 150px;
     height: 200px;
 }
 
+h1 {
+    font-size: 22px;
+    font-weight: normal;
+    margin: .67em 0;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+#base-info-sidebar {
+
+}
+
+#base-info-sidebar li {
+    padding-top: 20px;
+}
+
+.base-info-chip {
+
+}
+
+.base-info-chip li {
+
+}
+
+.base-info-chip li.title {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 40px;
+}
