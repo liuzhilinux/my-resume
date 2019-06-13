@@ -21,13 +21,18 @@ body {
 }
 
 #main-box {
-
+    width: 1020px;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: 32% 68%;
 }
 
 #base-info {
-
+    background-color: #333;
+    height: 240px;
 }
 
 #exp-list {
-
+    background-color: #fff;
+    height: 240px;
 }
