@@ -24,7 +24,7 @@ body {
     width: 1020px;
     margin: 10px auto;
     display: grid;
-    grid-template-columns: 28% 72%;
+    grid-template-columns: 32% 68%;
 
     overflow: hidden;
     -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
@@ -34,8 +34,8 @@ body {
 }
 
 #base-info {
-    background-color: #333;
-    color: rgba(255, 255, 255, 0.72);
+    background-color: #00bfa5;
+    color: rgba(255, 255, 255, 0.84);
     padding: 15px;
 
     top: 0;
@@ -77,7 +77,7 @@ ul {
 }
 
 #base-info-sidebar li {
-    padding-top: 20px;
+
 }
 
 .base-info-chip {
@@ -90,6 +90,32 @@ ul {
 
 .base-info-chip li.title {
     font-size: 18px;
-    color: rgba(255, 255, 255, 0.6);
+    color: #9f3;
     line-height: 40px;
+}
+
+.base-info-chip li.item {
+    padding-left: 25px;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+a, a:hover {
+    color: rgba(255, 255, 255, 0.84);
+}
+
+.skill-bar-wrap {
+    float: right;
+    margin-right: 25px;
+    height: 17px;
+    width: 120px;
+    background: #00796b;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+.skill-bar {
+    height: 17px;
+    background: #fff;
+    border-radius: 20px 0 0 20px;
 }
