@@ -14,6 +14,10 @@ fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
     vertical-align: baseline;
 }
 
+html {
+    /* filter: grayscale(100%); */
+}
+
 body {
     background: #e0e0e0;
     font-family: 'Helvetica Neue', Helvetica, 'Lucida Grande', Arial, 'Hiragino Sans GB', '微软雅黑', 'WenQuanYi Micro Hei', STHeiti, SimSun, sans-serif;
@@ -21,10 +25,10 @@ body {
 }
 
 #main-box {
-    width: 1020px;
+    width: 1060px;
     margin: 10px auto;
     display: grid;
-    grid-template-columns: 32% 68%;
+    grid-template-columns: 30% 70%;
 
     overflow: hidden;
     -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
@@ -42,7 +46,7 @@ body {
     bottom: 0;
 }
 
-#exp-list {
+#main-list {
     background-color: #fff;
     padding: 15px;
 }
@@ -119,3 +123,112 @@ a, a:hover {
     background: #fff;
     border-radius: 20px 0 0 20px;
 }
+
+#main-list > ul {
+
+}
+
+#main-list > ul > li {
+    padding-top: 20px;
+}
+
+#main-list h3 {
+    font-size: 24px;
+    color: #00796b;
+    line-height: 30px;
+    border-bottom: 1px solid #00796b;
+    margin: 0 0 15px 5px;
+}
+
+#skill-list {
+
+}
+
+#skill-list li {
+    list-style: circle;
+    margin: 10px 0 10px 40px;
+}
+
+#skill-list li p {
+    font-size: 15px;
+    color: #616161;
+    line-height: 22px;
+    margin-bottom: 3px;
+}
+
+#exp-list {
+
+}
+
+#exp-list .title {
+    margin: 10px 0;
+    padding-left: 10px;
+}
+
+#exp-list .title h4 {
+    font-size: 22px;
+    color: #004d40;
+    font-weight: 800;
+}
+
+#exp-list .exp-cnt {
+
+}
+
+.exp-cnt {
+
+}
+
+h4 {
+    line-height: 30px;
+    font-size: 18px;
+    color: #000;
+    position: relative;
+    bottom: 3px;
+    font-weight: bold;
+}
+
+.exp-cnt .circle {
+    height: 14px;
+    width: 14px;
+    border-radius: 100%;
+    background: #00796b;
+    float: left;
+    position: absolute;
+    left: -28px;
+    top: 5px;
+}
+
+.exp-cnt .clearfix {
+    zoom: 1;
+}
+
+.exp-cnt > ul {
+    border-left: 2px solid #00796b;
+    margin-left: 15px;
+}
+
+.exp-cnt > ul > li {
+    position: relative;
+    top: -5px;
+    margin: 20px 0 20px 20px;
+}
+
+.respons-disc, .respons {
+    display: flex;
+    font-size: 15px;
+    color: #616161;
+    line-height: 20px;
+    margin-bottom: 3px;
+}
+
+.respons p.respons-title {
+    align-self: start;
+}
+
+.respons .respons-list {
+    margin-left: 5px;
+}
+
+
+
