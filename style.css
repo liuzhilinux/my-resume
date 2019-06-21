@@ -161,7 +161,7 @@ a, a:hover {
 }
 
 #exp-list .title {
-    margin: 0;
+    margin-bottom: 10px;
     padding-left: 10px;
 }
 
@@ -212,7 +212,12 @@ h4 {
 .exp-cnt > ul > li {
     position: relative;
     top: -5px;
-    margin: 10px 0 20px 20px;
+    margin: 0 0 0 20px;
+    padding-bottom: 24px;
+}
+
+.exp-cnt:last-child li {
+    padding-bottom: 0;
 }
 
 .respons-disc, .respons {
@@ -231,5 +236,8 @@ h4 {
     margin-left: 5px;
 }
 
+.respons-disc:last-child {
+    margin-bottom: 0;
+}
 
 
