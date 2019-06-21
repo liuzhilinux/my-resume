@@ -161,12 +161,13 @@ a, a:hover {
 }
 
 #exp-list .title {
-    margin: 10px 0;
+    margin: 0;
     padding-left: 10px;
 }
 
 #exp-list .title h4 {
-    font-size: 22px;
+    line-height: 24px;
+    font-size: 18px;
     color: #004d40;
     font-weight: 800;
 }
@@ -181,7 +182,7 @@ a, a:hover {
 
 h4 {
     line-height: 30px;
-    font-size: 18px;
+    font-size: 16px;
     color: #000;
     position: relative;
     bottom: 3px;
@@ -211,7 +212,7 @@ h4 {
 .exp-cnt > ul > li {
     position: relative;
     top: -5px;
-    margin: 20px 0 20px 20px;
+    margin: 10px 0 20px 20px;
 }
 
 .respons-disc, .respons {
