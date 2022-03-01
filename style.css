@@ -104,7 +104,7 @@ body {
 }
 
 .sub-info .intro-items li {
-    height: 24px;
+    /* height: 24px; */
     line-height: 24px;
 }
 
